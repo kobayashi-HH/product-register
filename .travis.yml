@@ -8,4 +8,4 @@ bofore_install:
 script:
   - docker-compose exec --env "RAILS_ENV=test" we brails db:create
   - docker-compose exec --env "RAILS_ENV=test" we brails db:migrate
-  - docker-compose exec --env "RAILS_ENV=test" we brails test
+  - docker-compose exec --env "RAILS_ENV=test" we brails test 
